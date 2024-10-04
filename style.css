@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: Whitney,Helvetica-Neue,Helvetica,Arial,sans-serif;
 }
-/* Colori */
+/* Inizializzazione Colori */
 :root {
     --dark: #23272A;
     --blue: #255EE9;
@@ -24,4 +24,27 @@
 .container-small {
     max-width: 800px;
     margin: 0 auto;
+}
+/* Colori sfondo */
+.bkg-light {
+    background-color: var(--light);
+}
+.bkg-blue {
+    background-color: var(--blue);
+}
+.bkg-dark {
+    background-color: var(--dark);
+}
+/* Colori testo */
+.txt-white{
+    color: white;
+}
+/* bordo footer */
+.border-btm {
+    border-bottom: 1px solid #F6F6F6;
+}
+
+/* Impostazioni flex */
+.d-flex {
+    display: flex;
 }
