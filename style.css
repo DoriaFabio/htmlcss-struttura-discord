@@ -53,6 +53,15 @@
 .row-reverse {
     flex-direction: row-reverse;
 }
+.space-between{
+    justify-content: space-between;
+}
+.align-items{
+    align-items: center;
+}
+.wrap {
+    flex-wrap: wrap;
+}
 
 /* Dimensioni */
 .images {
@@ -60,4 +69,9 @@
 }
 .text {
     width: 40%;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 10px;
 }
