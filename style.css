@@ -1,0 +1,18 @@
+/* Impostazioni generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Whitney,Helvetica-Neue,Helvetica,Arial,sans-serif;
+}
+.debug {
+    border: 1px solid black;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-small {
+    max-width: 800px;
+    margin: 0 auto;
+}
