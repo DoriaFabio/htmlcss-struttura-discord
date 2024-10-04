@@ -13,9 +13,9 @@
     --violet: #748ADB;
 }
 /* debug */
-.debug {
+/* .debug {
     border: 1px solid black;
-}
+} */
 /* Container */
 .container {
     max-width: 1200px;
@@ -71,7 +71,7 @@
     width: 40%;
 }
 
-ul li {
+ul{
     list-style: none;
-    padding-left: 10px;
+    gap: 70px;
 }
