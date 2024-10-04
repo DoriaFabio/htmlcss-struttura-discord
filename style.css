@@ -20,6 +20,8 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .container-small {
     max-width: 800px;
@@ -47,4 +49,15 @@
 /* Impostazioni flex */
 .d-flex {
     display: flex;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+/* Dimensioni */
+.images {
+    width: 60%;
+}
+.text {
+    width: 40%;
 }
