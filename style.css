@@ -5,9 +5,18 @@
     box-sizing: border-box;
     font-family: Whitney,Helvetica-Neue,Helvetica,Arial,sans-serif;
 }
+/* Colori */
+:root {
+    --dark: #23272A;
+    --blue: #255EE9;
+    --light: #F6F6F6;
+    --violet: #748ADB;
+}
+/* debug */
 .debug {
     border: 1px solid black;
 }
+/* Container */
 .container {
     max-width: 1200px;
     margin: 0 auto;
