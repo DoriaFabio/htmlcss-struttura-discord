@@ -13,9 +13,9 @@
     --violet: #748ADB;
 }
 /* debug */
-/* .debug {
+.debug {
     border: 1px solid black;
-} */
+}
 /* Container */
 .container {
     max-width: 1200px;
@@ -26,6 +26,9 @@
 .container-small {
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
 }
 /* Colori sfondo */
 .bkg-light {
@@ -36,6 +39,10 @@
 }
 .bkg-dark {
     background-color: var(--dark);
+}
+.bkg-image {
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
 }
 /* Colori testo */
 .txt-white{
@@ -70,8 +77,22 @@
 .text {
     width: 40%;
 }
-
+/* Lista */
 ul{
     list-style: none;
-    gap: 70px;
+    gap: 50px;
+}
+/* ancora */
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Titolo */
+h1 {
+    color: white;
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+.center {
+    text-align: center;
 }
